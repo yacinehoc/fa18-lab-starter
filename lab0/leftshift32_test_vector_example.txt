@@ -1,0 +1,12 @@
+# La première ligne décrit les noms des fiches d'entrées et de sorties avec leurs [largeurs en bits] si > 1.
+# Chaque ligne après est un test individuel où chaque colonne représente une fiche (en entrée ou en sortie, selon le cas)
+# Les nombres peuvent être en décimal, binaire, hexadécimal ou même octal si vous le souhaitez
+
+B[32]                              Sa[5]   Cin   C[32]
+34                                 2       0     136                                 #en Decimal
+325948595                          15      0     -900104192                          #Decimal Negatif 
+00000000000000000000000000000001   00100   1     00000000000000000000000000011111    #en Binaire
+0x00000005                         0x01    0x0   0x0000000A                          #en Hexadecimal
+0o17777777777                      0o1     0o0   0o37777777776                       #en Octal
+00011111001010100010110111110001   0o10    0x0   707653888                           #le tout
+
