@@ -1,4 +1,8 @@
+#
 # automate.s ... on a 10 x 10 grid
+# problème de croissance de cellules
+# dans un espace limité
+#
 
       .data
 
