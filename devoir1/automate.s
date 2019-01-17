@@ -21,6 +21,15 @@ grid:           # grille de cellules
 
 othergrid: .space 100
 
+#
+# Si vous avez d'autres déclarations que vous voulez 
+# inclure et utiliser dans votre programme mettez les 
+# en dessous entre les marqueurs indiqués
+#
+# VOS_DECLARATIONS_COMMENCENT_ICI
+
+# VOS_DECLARATIONS_FINISSENT_ICI
+
       .text
       .globl main
 
